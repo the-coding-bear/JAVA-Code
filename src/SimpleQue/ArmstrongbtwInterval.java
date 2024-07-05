@@ -9,7 +9,8 @@ public class ArmstrongbtwInterval {
         int start = sc.nextInt();
         System.out.print("Enter ending number");
         int end = sc.nextInt();
-        System.out.print(printArmstrongNumbers(start,end));
+        boolean result = printArmstrongNumbers(start,end);
+        System.out.print(result);
     }
     public static boolean printArmstrongNumbers(int start, int end){
         for (int i=start;i<=end;i++){

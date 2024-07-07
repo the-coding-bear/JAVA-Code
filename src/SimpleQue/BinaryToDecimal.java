@@ -13,7 +13,7 @@ public class BinaryToDecimal {
         for (int i = 0; i < binaryLen; i++) {
             int bit = binary.charAt(i) - '0';
             int power = binaryLen - i - 1;
-            decimal += bit * Math.pow(2, power);
+            decimal += bit * (int)Math.pow(2, power);
         }
         return decimal;
     }

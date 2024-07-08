@@ -1,8 +1,12 @@
 package SimpleQue;
 
+import java.util.Scanner;
+
 public class DecimalToBinary {
     public static void main(String[] args) {
-        int decimal = 13;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a decimal number");
+        int decimal = sc.nextInt();
         String binary = decimalToBinary(decimal);
         System.out.println("Binary equivalent of decimal number " + decimal + " is: " + binary);
     }

@@ -1,6 +1,6 @@
 package Sorting;
 
-public class Bubblesort {
+public class BubbleSort {
     public static void main(String[] args) {
         int temp;
         int a[] = {36,19,29,12,5};

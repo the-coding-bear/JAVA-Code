@@ -26,6 +26,7 @@ public class InsertAtBegining {
             head = solution.insertAtBegining(head, 10);
             head = solution.insertAtBegining(head, 20);
             head = solution.insertAtBegining(head, 30);
+            head = solution.insertAtBegining(head, 50);
 
             Node current = head;
             while (current != null) {

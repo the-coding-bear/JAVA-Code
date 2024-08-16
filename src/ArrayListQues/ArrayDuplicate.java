@@ -24,7 +24,7 @@ public class ArrayDuplicate {
 
         // Handle edge case: no duplicates
         if (result.isEmpty()) {
-            result.add(-1);
+            result.add(-2);
         }
 
         return result;

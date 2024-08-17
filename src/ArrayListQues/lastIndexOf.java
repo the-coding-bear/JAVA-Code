@@ -16,7 +16,7 @@ public class lastIndexOf {
 
         int result= list.lastIndexOf(4);
         System.out.println(result);
-        result=list.lastIndexOf(7);
+        result=list.lastIndexOf(9);
         System.out.println(result);
     }
 }

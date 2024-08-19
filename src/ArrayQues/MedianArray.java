@@ -3,7 +3,7 @@ package ArrayQues;
 import java.util.Arrays;
 
 public class MedianArray {
-    public static void getMedian(int arr[],int n){
+    public static void getMedian(int[] arr, int n){
         Arrays.sort(arr);
         if(n%2 == 0){
             int ind1 = (n/2) - 1;

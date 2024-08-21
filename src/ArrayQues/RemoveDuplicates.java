@@ -1,8 +1,8 @@
 package ArrayQues;
 
 public class RemoveDuplicates {
-    public static void duplicate(int arr[], int n) {
-        int mark[] = new int[n];
+    public static void duplicate(int[] arr, int n) {
+        int[] mark = new int[n];
 
         for (int i = 0; i < n; i++) {
             mark[i] = 1;

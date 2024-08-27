@@ -4,7 +4,7 @@ public class BinaryArray {
 
 
         public static void main(String[] args) {
-            int[] A = {0, 1, 1, 0, 1, 0, 0, 1};  // Example binary array
+            int[] A = {0, 1, 8, 0, 4, 0, 4, 1};  // Example binary array
             sortBinaryArray(A);
             System.out.println("Sorted array: " + Arrays.toString(A));
         }

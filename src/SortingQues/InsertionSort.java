@@ -2,7 +2,7 @@ package SortingQues;
 
 public class InsertionSort {
     public static void main(String[] args) {
-        int[] a ={5,1,6,2,4,3};
+        int[] a ={5,1,6,2,44,3};
 
         int temp,j;
         for (int i=1;i< a.length;i++){

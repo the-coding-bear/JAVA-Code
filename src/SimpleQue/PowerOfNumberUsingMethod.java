@@ -9,7 +9,7 @@ public class PowerOfNumberUsingMethod {
         double n =sc.nextDouble();
         System.out.print("Enter power of number");
         double m =sc.nextDouble();
-        double reult = Math.pow(n,m);
-        System.out.println(reult);
+        double result = Math.pow(n,m);
+        System.out.println(result);
     }
 }

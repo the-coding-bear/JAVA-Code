@@ -2,7 +2,7 @@ package StringQues;
 
 public class LowerCase {
     public static void main(String[] args) {
-        String s = "GEEKSFORGEEKS";
+        String s = "AKANKSHARAI";
         System.out.println(s.toLowerCase());
     }
 }

@@ -2,7 +2,7 @@ package ArrayQues;
 
 public class AverageArray {
     public static void main(String[] args) {
-        int arr[] = {1,6,3,4,67,6};
+        int arr[] = {1,56,3,4,67,6};
         int n = arr.length;
         double sum =0;
         for (int i = 0;i<n;i++){

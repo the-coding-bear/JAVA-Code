@@ -16,7 +16,7 @@ public class SecondLargest {
     }
 
     public static void main(String[] args) {
-        int arr[] = {12,13,15,34,6};
+        int arr[] = {12,13,15,34,63};
         int n = arr.length;
         System.out.println(SecSmallest(arr,n));
     }

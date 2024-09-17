@@ -30,7 +30,7 @@ public class ClosestString {
 
     public static void main(String[] args) {
         ClosestString closestString = new ClosestString();
-        ArrayList<String> words = new ArrayList<>(Arrays.asList("A","practice", "makes", "tation", "coding", "makes","perfection"));
+        ArrayList<String> words = new ArrayList<>(Arrays.asList("A","Practice", "makes", "tation", "coding", "makes","perfection"));
         String word1 = "coding";
         String word2 = "practice";
 

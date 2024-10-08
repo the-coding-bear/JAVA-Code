@@ -31,7 +31,7 @@ public class ClosestString {
     public static void main(String[] args) {
         ClosestString closestString = new ClosestString();
         ArrayList<String> words = new ArrayList<>(Arrays.asList("Practice","Acting", "makes", "coding", "makes","perfection"));
-        String word1 = "coding";
+        String word1 = "perfection";
         String word2 = "practice";
 
         int result = closestString.shortestDistance(words, word1, word2);

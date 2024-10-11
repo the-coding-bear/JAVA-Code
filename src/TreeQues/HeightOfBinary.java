@@ -36,6 +36,9 @@ public class HeightOfBinary {
             root.left.left = new Node(4);
             root.left.right = new Node(5);
             root.left.left.left = new Node(6);
+            root.left.right.left = new Node(7);
+            root.left.right.left.right = new Node(8);
+
 
 
             System.out.println("The height of the binary tree is: " + tree.height(root));

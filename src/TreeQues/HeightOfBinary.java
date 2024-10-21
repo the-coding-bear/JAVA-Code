@@ -42,6 +42,8 @@ public class HeightOfBinary {
             root.left.right.left.left.left = new Node(9);
             root.left.right.left.left.right = new Node(11);
             root.left.right.left.left.right.left = new Node(12);
+            root.left.right.left.left.right.right = new Node(13);
+
 
 
 

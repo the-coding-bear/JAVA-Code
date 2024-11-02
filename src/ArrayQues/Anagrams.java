@@ -17,7 +17,7 @@ public class Anagrams {
 
         public static void main(String[] args) {
             String s1 = "akanks";
-            String s2 = "ankask";
+            String s2 = "ankasksh";
             System.out.println(areAnagrams(s1, s2));
         }
 
